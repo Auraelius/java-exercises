@@ -32,9 +32,5 @@ public class Alice {
         } else {
             System.out.println("No match found.");
         }
-
-
-
-
     }
 }
