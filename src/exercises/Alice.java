@@ -20,7 +20,7 @@ public class Alice {
         boolean foundIt = false;
 
         for (int i = 0; i <= (quoteLength - searchStringLength); i++) {
-            if (quote.regionMatches(true, i, searchString, 0, searchStringLength)) {
+            if (quote.regionMatches(true,i, searchString, 0, searchStringLength)) {
                 foundIt = true;
                 System.out.println(quote.substring(i, i + searchStringLength));
                 break;
