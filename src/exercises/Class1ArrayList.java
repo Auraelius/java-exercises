@@ -1,6 +1,6 @@
 package exercises;
 
-public class ArrayList {
+public class Class1ArrayList {
 
     private static int evenSum(int[] args) {
         int sum = 0;
